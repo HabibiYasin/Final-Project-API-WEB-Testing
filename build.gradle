@@ -50,7 +50,7 @@ task cucumber() {
                     '--plugin', 'html:reports/cucumber.html',
                     '--plugin', 'json:reports/cucumber.json',
                     '--plugin', 'pretty',
-                    '--glue', 'stepdef',
+                    '--glue', 'stepDef',
                     // '--tags', '@login and @home',
                     'src/test/java/features'
             ]
